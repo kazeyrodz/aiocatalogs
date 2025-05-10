@@ -1,0 +1,19 @@
+name = "aiocatalogs"
+main = "./packages/cloudflare/index.ts"
+
+compatibility_date = "2024-09-23"
+
+compatibility_flags = ["nodejs_compat", "nodejs_compat_populate_process_env"]
+
+[observability]
+enabled = true
+head_sampling_rate = 1 
+
+[vars]
+PORT = "8787"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "aiocatalogs-d1"
+database_id = "a25abf30-e604-4569-9e1a-c5b8e818703a"
+migrations_dir = "./packages/cloudflare/migrations" 
