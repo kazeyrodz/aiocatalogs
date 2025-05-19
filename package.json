@@ -42,7 +42,7 @@
     "@types/node-fetch": "^2.6.12",
     "body-parser": "^2.2.0",
     "express": "^5.1.0",
-    "hono": "^3.12.12",
+    "hono": "^4.7.10",
     "node-fetch": "^2.7.0",
     "stremio-addon-sdk": "^1.6.10",
     "toastify-js": "^1.12.0",
